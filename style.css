@@ -1,0 +1,5 @@
+body{width:400px; margin:0 auto; background:#F8F4B6;}
+label{display: block; float: left; width: 150px;
+  padding: 0 10px; margin: 18px 0 0; text-align: right;}
+#submit{float:right; margin:5px 50px 10px 0;}
+

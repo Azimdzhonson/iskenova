@@ -1,0 +1,86 @@
+body {
+	background: url("black.jpg");
+	font-family: serif;
+	color: white;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#heading {
+	background: url(black.jpg);
+	margin: 0px 0;
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+body div > h3 {
+	color: yellow;
+	text-align: center;
+}
+body h2 {
+	color: yellow;
+	text-align: left;
+}
+footer> h3 {
+	background: url(black.jpg);
+	color: yellow;
+	text-align: center;
+}
+
+
+
+
+<div id="wrapper">
+        <header><a href="/"><img src="images/logo2.jpg" alt="AUTO logo"></a>
+            <form name="search" action="#" method="POST">
+                <input type="text" name="name" placeholder="поиск"><button type="submit">GO</button>
+            </form></header>
+        <nav><ul class="top-menu">
+            <li><a href="/home/">ДОМОЙ</a></li>
+            <li><a href="active">О НАС</a></li>
+            <li><a href="/ads/">ОБЪЯВЛЕНИЯ</a></li>
+            <li><a href="2blok.html">КАТАЛОГ</a></li>
+            <li><a href="/dealers/">ДИЛЕРЫ</a></li>
+            <li><a href="/reviews/">ОТЗЫВЫ</a></li>
+            <li><a href="/price statistics/">СТАТИСТИКА ЦЕН</a></li>
+            <li><a href="/contact/">КОНТАКТЫ</a></li>
+        </ul></nav>
+        <div id="heading"></div>
+        <aside><nav>
+            <ul class="aside-menu">
+                <li><a href="passenger cars">ЛЕГКОВЫЕ</a></li>
+                <li><a href="/commercial/">КОММЕРЧЕСКИЕ</a></li>
+                <li><a href="/moto/">МОТО</a></li>
+                <li><a href="/electric vehicles/">ЭЛЕКТРОМОБИЛИ</a></li>
+                <li><a href="css/fon.jpg">ГАРАЖ</a></li>
+                <li><a href="/redemption/">ВЫКУП</a></li>
+                
+                <head>
+                    <meta charset="utf-8">
+                    <title>Кнопки</title>
+                </head>
+                
+                    <form>
+                    <p><button>Редактировать</button><br>
+                    <br><button>Добавить объявления</button><br>
+                    <img src="fon.jpg" alt="" style="vertical-align:middle">
+                    <br><button>Удалить объявления</button><br></p>
+                    </form>
+                        
+            </ul>
+        </nav></aside>
+        <section>
+            <blockquote>
+                <p>
+                    “ВСЕГДА ЧТО-ТО КАЖЕТСЯ НЕВОЗМОЖНЫМ ДО ТЕХ ПОР, ПОКА ЭТО НЕ БУДЕТ СДЕЛАНО”
+                </p>
+                    <cite>Нельсон Мандела</cite>
+            </blockquote>

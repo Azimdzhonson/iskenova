@@ -1,0 +1,193 @@
+body {
+	background: url("carforfon.jpg");
+	font-family: serif;
+	color: rgb(0, 0, 0);
+	background-size: cover;
+	background-attachment: fixed;
+}
+input[type="text"] {
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	height: 30px;
+	color: #000000;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 20px 0;
+}
+
+#wrapper {
+	max-width: 1080px;
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+form[name="search"] {
+	float: right;
+}
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #ffffff;
+}
+
+.top-menu a {
+	color: #ffffff;
+}
+#heading {
+	background: url(fon10.jpg);
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+h1 {
+	display: inline-block;
+	color: #000000;
+	font: 50px/50px 'Oswald', sans-serif;
+	background: url(/images/car.gif);
+	margin: 90;
+	padding: 0 160px;
+}
+aside {
+	float: left;
+	width: 250px;
+}
+section {
+	margin-left: 280px;
+	padding-bottom: 50px;
+}
+.aside-menu li {
+	font-weight: 300;
+	list-style-type: square;
+	border-top: 1px solid #ffffff;
+}
+
+.aside-menu li:first-child {
+	border: none;
+}
+
+.aside-menu li.active {
+	color: #29c5e6;
+}
+
+.aside-menu a {
+	color: #ffff00;
+}
+aside > h2 {
+	background: #29c5e6;
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	padding: 10px;
+	margin: 30px 0 0 0;
+}
+
+aside > p {
+	background: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	margin: 0;
+}
+blockquote {
+	margin: 0;
+	background: yellow;
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+blockquote p {
+	color: black;
+	font-style: italic;
+	font-size: 33px;
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: #1d8ea6;
+	margin: 0;
+	text-align: right;
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+figure img {
+	display: block;
+	border: 1px solid #fea900;
+	outline: 1px solid #fea900;
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure figcaption span {
+	display: block;
+	font-size: 14px;
+	color: yellow;
+}
+section > figure + figure {
+	margin-left: 28px;
+}
+section > h2 {
+	background: #29c5e6;
+	font: 30px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	padding: 0 10px;
+	margin: 30px 0 0 0;
+}
+body div > h1 {
+	color: #ffffff;
+}
+body div > h2 {
+	color: #000000;
+	padding: 0 20;
+	margin: 40px 0 0 0;
+}
+body footer > h1 {
+	color: rgb(255, 255, 255);
+}
+
+body head {
+	width: 150%;
+	height: 175;
+}
